@@ -11,7 +11,8 @@
  <p align="center">
     <a href="#RemoteCarAccess_about">Sobre</a> • 
     <a href="#RemoteCarAccess_techs">Tecnologias</a> • 
-    <a href="#RemoteCarAccess_install">Instalação</a>
+    <a href="#RemoteCarAccess_install">Instalação</a> • 
+    <a href="#RemoteCarAccess_ref">Referências</a>
     <h3 align="center">INTERFACE WEB DO PROJETO REMOTE CAR ACCESS</h3>
 
   <p align="center">
@@ -29,13 +30,20 @@
     <li>HTML5</li>
     <li>CSS3</li>
     <li>JavaScript</li> 
-</ul>
+</ul>  
 
 ## :pushpin: Instalação
+<p id="RemoteCarAccess_ref">
 
-<p id="RemoteCarAccess_install">Para utilizar as funcionalidades dessa interface é necessário seguir os passos de instalação do repositório <a href="https://github.com/4ngelica/ESP-MQTT-RemoteCarAccess">ESP-MQTT-RemoteCarAccess</a>, que fornece os demais arquivos necessários para tornar a aplicação funcional.</p>.
+• Para utilizar as funcionalidades dessa interface é necessário baixar os arquivos ou clonar esse repositório:
 
+`git clone https://github.com/4ngelica/INTERFACE-RemoteCarAccess.git `
 
+• Certifique-se de que os arquivos permaneçam dentro da mesma pasta.
+
+• Abra o arquivo <b>index.html</b> em qualquer editor para alterar as propriedades <i>value="seuTopicoPublish"</i> e <i>value="seuTopicoSubscribe"</i> <b>(Esse passo é MUITO IMPORTANTE. Caso não altere essas propriedades, a chance de acessar a nodeMCU de outra pessoa é grande).</b>
+
+Se você deseja reproduzir o projeto completo, acesse a seção de instalação do repositório <a href="https://github.com/4ngelica/ESP-MQTT-RemoteCarAccess">ESP-MQTT-RemoteCarAccess</a>, que fornece detalhadamente os componentes necessários, desenhos esquemáticos, projetos mecânicos, eletrônicos, bibliotecas necessárias e demais arquivos.</p>.
 
 <footer>
     <hr></hr>
