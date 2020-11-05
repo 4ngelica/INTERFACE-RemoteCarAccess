@@ -26,11 +26,9 @@
 
 ## :pushpin: Tecnologias
 <ul id="RemoteCarAccess_techs">
-    <li><a href="https://reactnative.dev/">React Native</a></li>
-    <li><a href="https://github.com/oblador/react-native-vector-icons">Vector Icons</a></li>
-    <li><a href="https://github.com/react-native-community/async-storage">Async Storage</a></li> 
-    <li><a href="https://github.com/axios/axios">Axios</a></li>
-    <li><a href="https://en.reactjs.org/docs/context.html">Context</a></li>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li> 
 </ul>
 
 ## :pushpin: Instalação
