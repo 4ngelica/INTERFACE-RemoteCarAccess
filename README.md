@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img width="200" src="http://sawastudio.me/fi44/gostack.png">
+  <img width="200" src="#">
 </p>
 
 <p align="center">
@@ -33,36 +33,13 @@
 
 ## :pushpin: Instalação
 
-<p id="RemoteCarAccess_install">Make sure you have<a href="https://nodejs.org/en/download/"> Node.js</a> installed on your computer.</p>
-<p>Clone the repo:</p>
+<p id="RemoteCarAccess_install">Para utilizar as funcionalidades dessa interface é necessário seguir os passos de instalação do repositório <a href="https://github.com/4ngelica/ESP-MQTT-RemoteCarAccess">ESP-MQTT-RemoteCarAccess</a>, que fornece os demais arquivos necessários para tornar a aplicação funcional.</p>.
 
-`git clone https://github.com/msawaguchi/gostack-reactnative.git`
 
-<p>
-    Enter inside the project directory and then make sure that server is running: 
-</p>
-
-`json-server server.json -p 3333 `
-
-<p>
-    Start Metro Bundler:
-</p>
-
- `yarn`
- 
- `yarn start`
- 
- And finally:
- 
- `yarn android`
-  
-  or
- 
- `yarn ios`
 
 <footer>
     <hr></hr>
 <p align="center">
 Made with :heart: by Angélica Batassim
 </p>
-</footer>
+</footer> .
