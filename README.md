@@ -22,7 +22,7 @@
 
 
 ## :pushpin: Sobre
-<p id="RemoteCarAccess_about">
+<p align="justify" id="RemoteCarAccess_about">
    O projeto Remote Car Access é um sistema teleoperação robótica para controlar dois protótipos carros utilizando o protocolo MQTT e o módulo ESP8266. Esse projeto foi desenvolvido em grupo como requisito avaliativo da disciplina Projetos de Sistemas Mecatrônicos II da Escola de Engenharia de São Carlos - USP. No intuito de deixar a experiência mais criativa, desenvolvi uma interface web para interagir com os protótipos que estão incialmente, em cidades diferentes. A interface é baseada num controle de Nintendo Switch e os comandos são enviados para os carros através de cada um dos Joy-cons. No monitor serão exibidas duas lives simultâneamente, no dia da apresentação final.
 </p>
 
