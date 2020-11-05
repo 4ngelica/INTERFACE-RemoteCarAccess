@@ -12,7 +12,8 @@
     <a href="#RemoteCarAccess_about">Sobre</a> • 
     <a href="#RemoteCarAccess_techs">Tecnologias</a> • 
     <a href="#RemoteCarAccess_install">Instalação</a> • 
-    <a href="#RemoteCarAccess_ref">Referências</a>
+    <a href="#RemoteCarAccess_ref">Referências</a> •
+   <a href="#RemoteCarAccess_ref">Demo</a>
     <h3 align="center">INTERFACE WEB DO PROJETO REMOTE CAR ACCESS</h3>
 
   <p align="center">
@@ -30,10 +31,11 @@
     <li>HTML5</li>
     <li>CSS3</li>
     <li>JavaScript</li> 
+    <li>MQTT</li> 
 </ul>  
 
 ## :pushpin: Instalação
-<p id="RemoteCarAccess_ref">
+<p id="RemoteCarAccess_install">
 
 • Para utilizar as funcionalidades dessa interface é necessário baixar os arquivos ou clonar esse repositório:
 
@@ -43,11 +45,18 @@
 
 • Abra o arquivo <b>index.html</b> em qualquer editor para alterar as propriedades <i>value="seuTopicoPublish"</i> e <i>value="seuTopicoSubscribe"</i> <b>(Esse passo é MUITO IMPORTANTE. Caso não altere essas propriedades, a chance de acessar a nodeMCU de outra pessoa é grande).</b>
 
-Se você deseja reproduzir o projeto completo, acesse a seção de instalação do repositório <a href="https://github.com/4ngelica/ESP-MQTT-RemoteCarAccess">ESP-MQTT-RemoteCarAccess</a>, que fornece detalhadamente os componentes necessários, desenhos esquemáticos, projetos mecânicos, eletrônicos, bibliotecas necessárias e demais arquivos.</p>.
+Se você deseja reproduzir o projeto completo, acesse a seção de instalação do repositório <a href="https://github.com/4ngelica/ESP-MQTT-RemoteCarAccess">ESP-MQTT-RemoteCarAccess</a>, que fornece detalhadamente os componentes necessários, desenhos esquemáticos, projetos mecânicos, eletrônicos, bibliotecas necessárias e demais arquivos.</p>
+
+## :pushpin: Referências
+<p id="RemoteCarAccess_ref">
+ • Artigo: <a href="https://www.filipeflop.com/blog/controle-monitoramento-iot-nodemcu-e-mqtt/ ">Controle e Monitoramento IoT com NodeMCU e MQTT</a> 
+ • Repositório: <a href="https://github.com/filipeflop/Interface-Web-MQTT">Interface-Web-MQTT</a>
+
+</p>
 
 <footer>
     <hr></hr>
 <p align="center">
 Made with :heart: by Angélica Batassim
 </p>
-</footer> .
+</footer> 
