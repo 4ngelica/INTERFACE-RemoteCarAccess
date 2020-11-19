@@ -6,6 +6,7 @@ body{
     background-color: paleturquoise;    
     margin: 0;
     padding:0;
+    display: grid;
 }
 
 .main{
@@ -15,13 +16,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 header{
     text-align: center;
     color: white;
-    font-family: 'Play', sans-serif;
 }
 
 header p {
@@ -34,7 +33,7 @@ header h1{
 
 /*Container do Switch*/
 .container-switch{
-    width: 60vw;
+    width: 50em;
     height: auto;
     position: absolute;
 }
@@ -55,7 +54,7 @@ header h1{
 
 #joycon-blue{
     width:15%;
-    height: 45vh;
+    height: 16em;
     border-radius: 40% 10% 10% 40%;
     background-color: #00c3e3;
     padding: 1%;
@@ -67,7 +66,7 @@ header h1{
 
 #joycon-red{
     width:15%;
-    height: 45vh;
+    height: 16em;
     border-radius: 10% 40% 40% 10%;
     background-color: #ff4554;
     padding: 1%;
@@ -81,15 +80,15 @@ header h1{
     width:80%;
     display: flex;
     align-items: center;
-    height: 45vh;
+    height: 16em;
     padding: 1%;
     border-radius: 2%;
     background-color:  #414548;
 }
 
 iframe{
-    width: 21vw;
-    height: 40vh;    
+    width: 100%;
+    height: 14em;    
 }
 
 #right{    
@@ -102,15 +101,16 @@ iframe{
   }
 
 .botoes-esquerda{
-    width: 60%;
+    width: 4em;
 }
 
 .botoes-direita{
-    width: 60%;
+    width: 4em;
 }
 
 #analogico{
-    height: 10vh;
+    width: 4em;
+    height: 4em;
     border-radius: 50%;
     background-color: #393939;
     border-color: #0b0e0e;
@@ -120,32 +120,33 @@ iframe{
 }
 
 #digital{
-    width: 6vw;
-    height: 13vh;
+    width: 5em;
+    height: 5em;
     border-radius: 50%;
+    display: grid;
 }
 
 #desliga-output{
     color:black;
-    width: 90%;
-    height: 9vh;
+    width: 94%;
+    height: 94%;
     border-radius: 50%;
     border-color: #6d6d6d;
     background-color: #4f4f4f;
     outline: none;
-    font-size: 1.1vw;
+    font-size: 1.1em;
     text-align: center;
 }
 
 #desliga-output-red{
     color:black;
-    width: 90%;
-    height: 9vh;
+    width: 94%;
+    height: 94%;
     border-radius: 50%;
     border-color: #6d6d6d;
     background-color: #4f4f4f;
     outline: none;
-    font-size: 1.1vw;
+    font-size: 1.1em;
     text-align: center;
 }
 
@@ -169,10 +170,10 @@ iframe{
    
 }
 .digital-item{
-    border-style: solid;
+    border-style: solid 1px;
     border-color:#6d6d6d;
-    width: 1.6vw;
-    height: auto;
+    width: 1.3em;
+    height: 1.3em;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -183,12 +184,11 @@ iframe{
 
 .But{
     align-items: center;
-
 }
 
 #avanca-output{
-    width: 1.9vw;
-    height: 3.6vh;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     outline: none;
     background-color:  #414548;
@@ -198,8 +198,8 @@ iframe{
 }
 
 #recua{
-    width: 1.9vw;
-    height: 3.6vh;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     outline: none;
     background-color:  #414548;
@@ -209,8 +209,8 @@ iframe{
 }
 
 #gira-direita-output{
-    width: 1.9vw;
-    height: 3.6vh;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     outline: none;
     background-color:  #414548;
@@ -220,8 +220,8 @@ iframe{
 }
 
 #gira-esquerda-output{
-    width: 1.9vw;
-    height: 3.6vh;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     outline: none;
     background-color:  #414548;
@@ -231,8 +231,8 @@ iframe{
 }
 
 #avanca-output-red{
-    width: 1.9vw;
-    height: 3.6vh;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     outline: none;
     background-color:  #414548;
@@ -242,8 +242,8 @@ iframe{
 }
 
 #recua-red{
-    width: 1.9vw;
-    height: 3.6vh;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     outline: none;
     background-color:  #414548;
@@ -253,8 +253,8 @@ iframe{
 }
 
 #gira-direita-output-red{
-    width: 1.9vw;
-    height: 3.6vh;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     outline: none;
     background-color:  #414548;
@@ -264,8 +264,8 @@ iframe{
 }
 
 #gira-esquerda-output-red{
-    width: 1.9vw;
-    height: 3.6vh;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     outline: none;
     background-color:  #414548;
@@ -282,23 +282,23 @@ iframe{
     display: flex;
 }
 .superior-esquerda{
-    width: 2vw;
-    height: 2vh;
+    width: 4em;
+    height: 0.7em;
     background-color: #414548;
     border-radius: 30%;
     margin-left: 60%;
 }
 
 .inferior-esquerda{
-    width: 1.5vw;
-    height: 3.1vh;
+    width: 1em;
+    height: 1em;
     background-color: #414548;
     margin-left: 65%;
 }
 
 .superior-direita{
-    width: 2.2vw;
-    height: 1.9vh;
+    width: 1.6em;
+    height: 0.5em;
     background-color: #414548;
     margin-right: 50%;
     margin-top:12%;
@@ -306,18 +306,18 @@ iframe{
 }
 
 .inferior-direita{
-    width: 1.6vw;
-    height: 3.2vh;
+    width: 1.4em;
+    height: 1.4em;
     background-color:#414548;
     border-radius: 50%;
     margin-right: 80%;
 }
 
 .superior-direita2{
-    width: 0.9vw;
-    height: 4vh;
+    width: 0.5em;
+    height: 1.4em;
     background-color: #414548;
-    margin-left: 1%;
+    margin-left: 1.16%;
     position: absolute;
 }
 
@@ -553,15 +553,10 @@ svg{
     .instrucoes{
         display: none;
     }
-        
 
     .container-switch{
         width: auto;
         margin:0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: center
-
     }
 
     #tela{
@@ -570,112 +565,117 @@ svg{
     }
 
     #joycon-red{
-        width:40vw;
-        height: 70vh;
-        padding:0;
-    }
+        width: 50%;
+        height: 30em;
+        padding:15%;
+ }
 
     #joycon-blue{
-        width:40vw;
-        height: 70vh;
-        padding:0;
+        width:50%;
+        height: 30em;
+        padding:15%;
     }
 
     #analogico{
-        height: 13vh;
+        width: 7em;
+        height: 7em;
     }
 
     #desliga-output{
-        width: 29.8vw;
-        height: 12.9vh;
+        width: 96%;
+        height: 96%;
         font-size: 20px;
     }
 
     #desliga-output-red{
-        width: 29.8vw;
-        height: 12.9vh;
+        width: 96%;
+        height: 96%;
         font-size: 20px;
     }
 
     #digital{
-        width: 30vw;   
-        height: 14vh;
+        width: 7em;
+        height: 7em;
     }
 
     .digital-item{
-        width: 8vw;
+        width: 2em;
+        height: 2em;
     }
 
     #avanca-output{
-        width: 8vw;
         font-size: 20px;
     }
 
     #recua{
-        width: 8vw;
         font-size: 20px;
     }
 
     #gira-direita-output{
-        width: 8vw;
         font-size: 20px;
     }
 
     #gira-esquerda-output{
-        width: 8vw;
         font-size: 20px;
     }
 
     #avanca-output-red{
-        width: 8vw;
         font-size: 20px;
     }
 
     #recua-red{
-        width: 8vw;
         font-size: 20px;
     }
 
     #gira-direita-output-red{
-        width: 8vw;
         font-size: 20px;
     }
 
     #gira-esquerda-output-red{
-        width: 8vw;
         font-size: 20px;
     }
 
+    .botoes-esquerda{
+        width: 100%;
+    }
+
+    .botoes-direita{
+        width: 100%;
+    }
     .superior-esquerda{
-        width: 7vw;
-        height: 2vh;
+        width: 3em;
+        height: 1.3em;
     }
     
     .inferior-esquerda{
-        width: 6vw;
-        height: 3.1vh;
+        width: 2em;
+        height: 2em;
     }
 
     .superior-direita{
-        width: 7vw;
-        height: 2vh;
-        margin-top:2%;
+        width: 3em;
+        height: 1.3em;
+        margin-top:4%;
     }
     
     .inferior-direita{
-        width: 7vw;
-        height: 3.6vh;
+        width: 2.5em;
+        height: 2.5em;
     }
 
     .superior-direita2{
-        width: 3.3vw;
-        height: 4vh;
-        margin-left: 2%;
-        top:6%;
+        width: 1.3em;
+        height: 3em;
+        margin-left: 5.5%;
+        top:9%;
     }
 
     .secondary{
         display:none;        
+    }
+
+    svg{
+        display: none;
     }
 }
 
